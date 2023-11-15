@@ -5,26 +5,41 @@
 body {
     height: 100vh;
     margin: 0;
-    padding: 0 300px;
-    overflow: hidden;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
 }
 
-.container {
+.container { 
+    padding: 0 144px;
     background-color: aqua;
-}
-
-.header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .header1 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.header2 {
+    padding: 55px 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.header3 {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 13px;
 }
 
 .content {
