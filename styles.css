@@ -77,7 +77,7 @@ h1, p {
 }
 
 .header3 > p {
-    font-size: 18;
+    font-size: 18px;
     color: #E5E7EB;
 }
 
@@ -144,4 +144,29 @@ h2 {
     margin-top: 8px;
 }
 
+/* css for body-2 */
+.body-2 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-content: center;
+}
 
+.body-2 .container {
+    margin: 44.5px 188.5px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.citation {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+}
