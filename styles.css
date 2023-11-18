@@ -1,6 +1,6 @@
-/* * {
+* {
     border: 1px solid red;
-} */
+}
 
 body {
     height: 100vh;
@@ -20,8 +20,9 @@ body {
     margin: 0 116.5px;
 }
 
+/* css mostly for header */
 .header1 {
-    padding: 0;
+    padding: 10px 0;
     margin: 0;
     display: flex;
     justify-content: space-between;
@@ -94,11 +95,53 @@ a {
     text-decoration: none;
 }
 
+/* css for the content of page */
 .content {
     margin: 0;
-    flex: 1;
+    padding: 0;
     display: flex;
-    align-items: center;
+    flex: 1;
     justify-content: space-between;
+    align-items: stretch;
     flex-direction: column;
 }
+
+/* css for body-1 */
+.item > img {
+    width: 89px;
+    height: 89px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
+.body-1 > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.item-container {
+    display: flex;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item .text {
+    text-align: center;
+    margin-top: 8px;
+}
+
+
